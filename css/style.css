@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    background-color: hsl(199, 100%, 50%)
+}
+.container{
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 10px 10px 10px hsl(0, 0%, 0%,0.300);
+}
+#contraseña{
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+}
+.tipo{
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px hsl(0, 0%, 0%,0.300);
+    border-radius: 5px;
+    margin: auto;
+    max-width: 400px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.longitud{
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px hsl(0, 0%, 0%,0.300);
+    border-radius: 5px;
+    margin: auto;
+    max-width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#longitud{
+    width: 80px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+}
+#generar{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+    background-color: hsl(199, 100%, 50%);
+    font-size: 1.5em;
+    cursor: pointer;
+}
+#generar:hover{
+    background-color: hsl(199, 100%, 60%);
+}
+#copiar{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+    background-color: hsl(347, 91%, 55%);
+    font-size: 1.5em;
+    cursor: pointer;
+}
+#copiar:hover{
+    background-color: hsl(347, 91%, 65%);
+}
